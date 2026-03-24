@@ -10,6 +10,8 @@ if __name__ == "__main__":
 
     from dotenv import load_dotenv
 
+    load_dotenv()
+
     PROJECT_CRS = "EPSG:4326"
     so2sat_dir = Path(os.getenv("SO2SAT_DIR"))
 
